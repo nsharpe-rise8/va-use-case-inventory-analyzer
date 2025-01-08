@@ -1,8 +1,8 @@
 import json
 import logging
-from config import client
-from schema import json_schema
-from analysis_results import AnalysisResult
+from ..config.config import client
+from ..analysis.analysis_results import AnalysisResult
+from ..schemas.schema import json_schema
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
